@@ -1,0 +1,38 @@
+=============== Sep 11, 2020 (IST) ===============
+16:59:34.033597 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:59:34.302129 db@open opening
+16:59:34.373335 version@stat F·[] S·0B[] Sc·[]
+16:59:34.633419 db@janitor F·2 G·0
+16:59:34.633570 db@open done T·331.271227ms
+16:59:44.649264 db@close closing
+16:59:44.649381 db@close done T·112.023µs
+=============== Sep 11, 2020 (IST) ===============
+17:04:18.516248 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:04:18.516916 version@stat F·[] S·0B[] Sc·[]
+17:04:18.516945 db@open opening
+17:04:18.517007 journal@recovery F·1
+17:04:18.518675 journal@recovery recovering @1
+17:04:18.524173 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+17:04:18.525950 version@stat F·[1] S·176B[176B] Sc·[0.25]
+17:04:18.543860 db@janitor F·3 G·0
+17:04:18.543899 db@open done T·26.942519ms
+=============== Sep 11, 2020 (IST) ===============
+17:10:20.356922 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:10:20.357102 version@stat F·[1] S·176B[176B] Sc·[0.25]
+17:10:20.357122 db@open opening
+17:10:20.357174 journal@recovery F·1
+17:10:20.359925 journal@recovery recovering @3
+17:10:20.376878 memdb@flush created L0@5 N·1 S·159B "loc..seq,v4":"loc..seq,v4"
+17:10:20.378774 version@stat F·[2] S·335B[335B] Sc·[0.50]
+17:10:20.389191 db@janitor F·4 G·0
+17:10:20.389216 db@open done T·32.086732ms
+=============== Sep 11, 2020 (IST) ===============
+17:10:34.659444 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:10:34.659730 version@stat F·[2] S·335B[335B] Sc·[0.50]
+17:10:34.659778 db@open opening
+17:10:34.659895 journal@recovery F·1
+17:10:34.662499 journal@recovery recovering @6
+17:10:34.707725 memdb@flush created L0@8 N·1 S·159B "loc..seq,v6":"loc..seq,v6"
+17:10:34.709402 version@stat F·[3] S·494B[494B] Sc·[0.75]
+17:10:34.719937 db@janitor F·5 G·0
+17:10:34.719961 db@open done T·60.172629ms

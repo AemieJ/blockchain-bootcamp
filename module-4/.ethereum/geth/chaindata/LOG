@@ -1,0 +1,38 @@
+=============== Sep 11, 2020 (IST) ===============
+16:59:31.775878 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:59:32.208360 db@open opening
+16:59:32.215108 version@stat F·[] S·0B[] Sc·[]
+16:59:32.582949 db@janitor F·2 G·0
+16:59:32.583061 db@open done T·374.646733ms
+16:59:44.648914 db@close closing
+16:59:44.649059 db@close done T·140.403µs
+=============== Sep 11, 2020 (IST) ===============
+17:04:18.066685 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:04:18.066791 version@stat F·[] S·0B[] Sc·[]
+17:04:18.066812 db@open opening
+17:04:18.066850 journal@recovery F·1
+17:04:18.068625 journal@recovery recovering @1
+17:04:18.177637 memdb@flush created L0@2 N·21261 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+17:04:18.253969 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+17:04:18.271212 db@janitor F·3 G·0
+17:04:18.271228 db@open done T·204.409185ms
+=============== Sep 11, 2020 (IST) ===============
+17:10:20.115751 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:10:20.115842 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+17:10:20.115857 db@open opening
+17:10:20.115888 journal@recovery F·1
+17:10:20.117490 journal@recovery recovering @3
+17:10:20.279251 memdb@flush created L0@5 N·2 S·497B "Las..der,v21264":"eth..ˏ\xa3,v21263"
+17:10:20.284514 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+17:10:20.296806 db@janitor F·4 G·0
+17:10:20.296878 db@open done T·181.005633ms
+=============== Sep 11, 2020 (IST) ===============
+17:10:33.440750 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:10:33.440848 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+17:10:33.440864 db@open opening
+17:10:33.440896 journal@recovery F·1
+17:10:33.442387 journal@recovery recovering @6
+17:10:34.494091 memdb@flush created L0@8 N·2 S·497B "Las..der,v21267":"eth..ˏ\xa3,v21266"
+17:10:34.495797 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+17:10:34.588244 db@janitor F·5 G·0
+17:10:34.588289 db@open done T·1.147413947s
